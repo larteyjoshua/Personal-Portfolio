@@ -1,0 +1,47 @@
+<div class="section" id="experience">
+  <div class="container py-2 cc-experience">
+      <div class="h4 text-center mb-4 title">Work Experience</div>
+              <div class="row" >
+                  <ul class="timeline" *ngFor = 'let experience of experiences'>
+                      <li>
+                          <div class="timeline-panel">
+                              <div class="row" >
+                                  <div class="col-lg-6 ">
+                                      <div class="h5 mt-0 title">{{experience.companyName}}</div>
+                                      <div class="h6 mt-0 title">{{experience.role}}</div>
+                                      <p align="justify">{{experience.briefDetails}}</p>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <ul>
+                                          <li class="list">Core Functionality</li>
+                                          <ul>
+                                              <li class="non_list">{{experience.functionalities.function1}}</li>
+                                              <li class="non_list">{{experience.functionalities.function2}}</li>
+                                          </ul>
+                                          <li class="list">Technologies and Language</li>
+                                          <ul>
+                                              <div class="row">
+                                                  <div class="col-md-6">
+                                                      <li class="non_list">{{experience.technologies.tech1}}</li>
+                                                      <li class="non_list">{{experience.technologies.tech2}}</li>
+                                                      <li class="non_list">{{experience.technologies.tech3}}</li>
+                                                      <li class="non_list">{{experience.technologies.tech4}}</li>
+                                                  </div>
+                                                  <div class="col-md-6">
+                                                      <li class="non_list">{{experience.technologies.tech6}}</li>
+                                                      <li class="non_list">{{experience.technologies.tech7}}</li>
+                                                      <li class="non_list">{{experience.technologies.tech8}}</li>
+                                                      <li class="non_list">{{experience.technologies.tech5}}</li>
+                                                  </div>
+                                              </div>
+                                          </ul>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+  </div>
+</div>
+
