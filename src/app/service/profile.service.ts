@@ -266,7 +266,7 @@ export class ProfileService {
           },
           {
             projectName: 'Personal Portfolio',
-            link: '',
+            link: 'https://github.com/larteyjoshua/Personal-Portfolio',
             briefDetails:'This display my Personal Portfolio using Angular standard coding Practices.',
             functionalities: {
               function1: 'Get to know me',
